@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Business Landing Page",
+  title: "Rating Component",
   description: "Boris coded this with the help of Davidson",
 };
 
