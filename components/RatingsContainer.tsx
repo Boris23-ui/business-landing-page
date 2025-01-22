@@ -24,7 +24,7 @@ const RatingsContainer = () => {
     }}>
         
         {submitted ? (
-            <ThanksMessage />
+            <ThanksMessage selectedRating={selected} />
         ) : (
             <>
             <Box 
