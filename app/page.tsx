@@ -1,11 +1,18 @@
+import RatingsContainer from "@/components/RatingsContainer";
+import Box from "@mui/material/Box";
+import React from "react";
 
-
-export default function Home() {
+const Home = () => {
   return (
-    <div>
-
-    </div>
+    <Box sx={{ 
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      height: "98vh"
+      }} >
+      <RatingsContainer />
+    </Box>
   );
-}
+};
 
-
+export default Home;
