@@ -30,9 +30,15 @@ const ThanksMessage = ({ selectedRating }:  Props) => {
          <Typography sx={{ fontSize: "2rem", color: "#FFFFFF", fontWeight: 600, marginTop: "3rem" }} >
           Thank You!
          </Typography>
-         <Typography sx={{ color: "#969FAD", textAlign: "center", marginTop: "1rem", fontWeight: "400", fontSize: "1.200rem" }} >
-            We appreciate you taking the time to give a rating. 
-            If you ever need more support, don't hesitate to get in touch!
+         <Typography 
+           sx={{ 
+             color: "#969FAD", 
+             textAlign: "center", 
+             marginTop: "1rem", 
+             fontWeight: "400", 
+             fontSize: "1.200rem" 
+             }} 
+          >We appreciate you taking the time to give a rating. If you ever need more support, do not hesitate to get in touch!
          </Typography>
        </Box>
     </Box>
